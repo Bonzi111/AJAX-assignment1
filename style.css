@@ -1,4 +1,4 @@
-table {
+body {
     border-spacing: 0;
     width: 100%;
     border: 1px solid gray;
@@ -8,7 +8,9 @@ table {
     text-align: left;
     padding: 16px;
   }
-  
+  tr:nth-child(odd){
+    background-color: seagreen;
+  }
   tr:nth-child(even) {
     background-color: skyblue;
   }
